@@ -1,0 +1,19 @@
+# syslog-ng 
+ * Messages for package app-admin/logrotate-3.14.0:
+
+ * 
+ * The logrotate binary is now installed under /usr/bin. Please
+ * update your links
+ * 
+ * logrotate state file is now located at /var/lib/misc/logrotate.status
+ * See bug #357275
+ * If you are running systemd you might need to run:
+ * systemd-tmpfiles --create /usr/lib/tmpfiles.d/logrotate.conf
+ * in order to create the new location of the logrotate state file
+ * 
+ * If you wish to have logrotate e-mail you updates, please
+ * emerge virtual/mailx and configure logrotate in
+ * /etc/logrotate.conf appropriately
+ * 
+ * Additionally, /etc/logrotate.conf may need to be modified
+ * for your particular needs. See man logrotate for details.

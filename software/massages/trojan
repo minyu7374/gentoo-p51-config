@@ -1,0 +1,11 @@
+ * Messages for package net-proxy/trojan-1.16.0:
+
+ * Running Trojan with multi instances
+ *
+ * Prepare /etc/trojan/${blah}.json first
+ * Config with Openrc
+ *    ln -s /etc/init.d/trojan{,.${blah}}
+ *    rc-update add trojan.${blah} default
+ *
+ * Config with Systemd
+ *    systemctl enable trojan.${blah}

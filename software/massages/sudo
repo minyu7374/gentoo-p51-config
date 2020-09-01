@@ -1,0 +1,16 @@
+ * Messages for package app-admin/sudo-1.9.2:
+
+ * 
+ * sudo uses the /etc/ldap.conf.sudo file for ldap configuration.
+ * 
+ * To use the -A (askpass) option, you need to install a compatible
+ * password program from the following list. Starred packages will
+ * automatically register for the use with sudo (but will not force
+ * the -A option):
+ * 
+ *  [*] net-misc/ssh-askpass-fullscreen
+ *      net-misc/x11-ssh-askpass
+ * 
+ * You can override the choice by setting the SUDO_ASKPASS environmnent
+ * variable to the program you want to use.
+
